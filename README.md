@@ -430,18 +430,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/db700c14-5c3b-493c-9d6e-eaddf5912a00)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2f8fdf36-a3be-4865-a225-67e2c4f47cac)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/c20890c5-d91e-4bc3-9979-d4a5a97b5c66)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/7ceba2af-5862-4c1e-8332-16a3e5a5b5be)
 
  
 # Shell Script
@@ -452,6 +456,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/97af7b75-bca7-426e-b9ef-60a56a592397)
 
  
 cat << stop > herecheck.txt
